@@ -1,11 +1,8 @@
 /* STYLING FOR GOOGLE DOCS SIGNUP FORM */
 #ss-form label {
   width: 10em;
-  font-style: italic;
-  line-height: 1.5em;
-  font-family: Times, 'Times New Roman', serif;
-  font-size: 18px;
-  color: white;
+  line-height: 1.8em;
+  font-size: 0.91em;
   padding: 0;
   margin: 0;
 }
@@ -13,11 +10,10 @@
   display: block;
   text-indent: 25px;
   margin: 5px;
-  background: url('/assets/app/images/icons.png') no-repeat;
+  background: url('/wiki/assets/app/images/icons.png') no-repeat;
   background-position: 0 -178px;
 }
 #ss-form input, #ss-form textarea, #ss-form select {
-  color: black !important;
   margin-left: 10px;
 }
 #ss-form input[type=text] {
@@ -57,9 +53,13 @@
 #ss-form label, #ss-form .ss-q-help {
   text-align:left;
 }
+#ss-form .form-choices {
+  display: inline-block;
+  margin: 0 !important;
+}
 #ss-form .ss-required-asterisk {
   text-align: right;
-  color: black;
+  color: #900;
   font-weight: bold;
   padding-left: 1pt;
 }
@@ -70,5 +70,6 @@
   clear:both;
 }
 #ss-form .ss-navigate {
-  display:none;
+  margin: 1em 0;
+  padding: 0.5em 0;
 }
