@@ -1,0 +1,37 @@
+<?php 
+// DO NOT REMOVE
+require_once(DOKU_TPLINC . 'tpl_functions.php');
+?>
+    <div id="header">
+      <div class="logo">
+        <a href="/wiki" name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[H]">make.opendata.ch</a>
+      </div>
+      <!-- <div class="navigation">
+        <ul>
+          <li ><div class="li"><a href="http://make.opendata.ch/">Make.Opendata.ch</a></div></li>
+          <li ><div class="li"><a href="http://make.opendata.ch/">Hackdays</a></div></li>
+          <li ><div class="li"><a href="http://make.opendata.ch/">About</a></div></li>
+          <li >
+            <div class="li">
+              <a href="http://make.opendata.ch/" class="active">Wiki</a>
+              <?php tpl_navigation() ?>
+            </div>
+          </li>
+          <li ><div class="li"><a href="http://make.opendata.ch/forum">Forum</a></div></li>
+        </ul>
+      </div> -->
+      <?php tpl_navigation() ?>
+    <div class="actions">
+      <?php tpl_actions()?>
+    </div>
+
+    <div id="search">
+      <?php tpl_searchform()?>
+    </div>
+
+    <div id="pagemeta">
+      <?php tpl_license(false);?>
+      <div class="doc">
+        <?php tpl_pageinfo()?>
+      </div>
+    </div>
