@@ -1,0 +1,3 @@
+[submodule "jsConnect"]
+	path = jsConnect
+	url = git://github.com/vanillaforums/jsConnectPHP.git
