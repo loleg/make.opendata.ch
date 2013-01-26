@@ -1,9 +1,8 @@
 <?php
-require_once dirname(__FILE__).'/functions.jsconnect.php';
-
 /* DokuWiki setup */
 if(!defined('DOKU_INC')) define('DOKU_INC',dirname(__FILE__).'/');
 require_once(DOKU_INC.'inc/init.php');
+require_once(DOKU_INC.'jsConnect/functions.jsconnect.php');
 
 if(!isset($_SERVER['REMOTE_USER'])) die('');
 if(!exportUserDoku()) die('hmm');
