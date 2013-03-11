@@ -13,8 +13,8 @@ function exportUserDoku() {
 	if (!$auth) return false;
 	
 	// 1. Get your client ID and secret here. These must match those in your jsConnect settings.
-	$clientID = "197411298";
-	$secret = "267158a45e323ba7e31436c9ca64fc00";
+	$clientID = "1241223712";
+	$secret = "fc933690e06383999be64f5917e782ef";
 
 	// 2. Grab the current user from your session management system or database here.
 	$signedIn = true; // this is just a placeholder	
